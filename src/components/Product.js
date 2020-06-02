@@ -44,7 +44,7 @@ export default class Product extends Component {
                             {title}
                         </p>
                         <h5 className='text-blue font-italic mb-0'>
-                            <span className='mr-1'>Rs</span>
+                            <span className='mr-1'>INR</span>
                             {price}
                         </h5>
                     </div>

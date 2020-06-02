@@ -24,7 +24,7 @@ export default class Model extends Component {
                                       <h5>item added to the cart</h5>
                                       <img src={img} alt="product" className="img-fluid"></img>
                                       <h5>{title}</h5>
-                                      <h5 className="text-muted">price : Rs {price}</h5>
+                                      <h5 className="text-muted">price : INR {price}</h5>
                                       <Link to="/">
                                           <ButtonContainer onClick={()=>closeModel()}>
                                               store
